@@ -1,0 +1,42 @@
+export const dummyDataTeam = [
+    {
+        id: 1,
+        name: "Vivian Njau",
+        email: "viviannjau3985@gmail.com",
+        Age: 35,
+        phone: "(254)707-279347",
+        access: "admin",
+    },
+    {
+        id: 2,
+        name: "Mathea Njau",
+        email: "viviannjau3985@gmail.com",
+        Age: 35,
+        phone: "(254)707-279347",
+        access: "manager",
+    },
+    {
+        id: 3,
+        name: "Shiku Njau",
+        email: "viviannjau3985@gmail.com",
+        Age: 35,
+        phone: "(254)707-279347",
+        access: "user",
+    },
+    {
+        id: 4,
+        name: "Alan Bo",
+        email: "viviannjau3985@gmail.com",
+        Age: 35,
+        phone: "(254)707-279347",
+        access: "admin",
+    },
+    {
+        id: 5,
+        name: "Trecy Njau",
+        email: "viviannjau3985@gmail.com",
+        Age: 35,
+        phone: "(254)707-279347",
+        access: "user",
+    },
+]

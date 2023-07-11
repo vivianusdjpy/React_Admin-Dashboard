@@ -2,12 +2,12 @@
 This project is a React.js-based analytics dashboard that provides visual representations and insights into various data metrics.
 
 ## Features
-Interactive and customizable charts and graphs.
-Real-time data updates with dynamic visualizations.
-User-friendly interface with intuitive navigation.
-Filter and drill-down capabilities for in-depth analysis.
-A Geographical map of customers color-coded order distribution.
-Export functionality to save and share generated reports.
+- Interactive and customizable charts and graphs.
+- Real-time data updates with dynamic visualizations.
+- User-friendly interface with intuitive navigation.
+- Filter and drill-down capabilities for in-depth analysis.
+- A Geographical map of customers color-coded order distribution.
+- Export functionality to save and share generated reports.
 
 ![image](https://github.com/vivianusdjpy/admin-dashboard/assets/56575615/e7dd08e1-b01c-410f-9291-028d52d0c211)
 

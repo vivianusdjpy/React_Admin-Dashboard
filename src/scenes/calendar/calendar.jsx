@@ -1,13 +1,12 @@
 import { useState } from "react";
 import FullCalendar from "@fullcalendar/react";
-import { format } from 'date-fns';
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import listPlugin from "@fullcalendar/list";
 import {
   Box,
-  List, 
+  List,
   ListItem,
   ListItemText,
   Typography,
@@ -20,6 +19,14 @@ const Calendar = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const [currentEvents, setCurrentEvents] = useState([]);
+
+const formatDate = (date) => {
+  return new Intl.DateTimeFormat("en-US", {
+      year: "numeric",
+      month: "short",
+      day: "numeric",
+  }).format(date);
+};
 
   const handleDateClick = (selected) => {
     const title = prompt("Please enter a new title for your event");
@@ -74,7 +81,7 @@ const Calendar = () => {
                   primary={event.title}
                   secondary={
                     <Typography>
-                      {format(event.start, {
+                      {formatDate(event.start, {
                         year: "numeric",
                         month: "short",
                         day: "numeric",
